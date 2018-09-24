@@ -133,8 +133,8 @@ STATICFILES_DIRS = [
 
 #EMAIL config
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.wo.cn'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = '15659195403@wo.cn'
-EMAIL_HOST_PASSWORD = 'zhangjin0818'
-CONFIRM_DAYS = 7
+EMAIL_HOST = 'smtp.wo.cn' #发送服务器
+EMAIL_PORT = 25 #端口
+EMAIL_HOST_USER = 'xxxxxx@wo.cn'   #发送邮箱账号
+EMAIL_HOST_PASSWORD = '*****'    #发送邮箱密码
+CONFIRM_DAYS = 7    #确认邮件过期时间
